@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #112240;
+    z-index: 1000;
+    padding: 1rem 2rem;
+  }
+
+  main {
+    margin-left: 0;
+    margin-top: 80px;
+    padding: 2rem 5vw;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-menu {
+    max-height: none !important;
+    overflow: visible !important;
+    display: block;
+    width: 100%;
+  }
+
+  .hamburger {
+    display: none !important;
+  }
+
+  .section {
+    margin-bottom: 50px;
+    scroll-margin-top: 175px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    width: 100%;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about img.profile {
+    margin-top: 1.5rem;
+    align-self: center;
+  }
+
+  #skills {
+    scroll-margin-top: 180px;
+  }
+
+  .btn {
+    justify-content: center;
+  }
+}

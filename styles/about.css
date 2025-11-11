@@ -1,0 +1,19 @@
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.about-text {
+  flex: 1;
+  color: #8892b0;
+  line-height: 1.7;
+}
+
+.about img.profile {
+  width: 280px;
+  border-radius: 50%;
+  border: 2px solid #64ffda;
+  margin-top: -5rem;
+}

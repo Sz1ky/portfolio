@@ -1,0 +1,21 @@
+.hero {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #8892b0;
+}
+
+.accent {
+  color: #64ffda;
+}

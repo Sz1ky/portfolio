@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patrik Szikora</title>
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/hero.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/responsiveMobile.css" />
+    <link rel="stylesheet" href="styles/responsiveTablet.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+  </head>
+  <body>
+    <!-- SIDEBAR / NAVBAR -->
+    <aside class="sidebar">
+      <div class="top-bar">
+        <div class="logo"><a href="#" id="logo">PSz</a></div>
+        <button id="languageBtn" class="lang-btn">🌐</button>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HERO -->
+      <section id="home" class="section hero">
+        <h1 id="introduction">
+          Hello, I’m <span class="accent">Patrik Szikora</span>.
+        </h1>
+        <p id="description">
+          As a frontend developer, I’m passionate about building elegant and
+          user-friendly web experiences.
+        </p>
+        <a href="#skills" id="viewWorkBtn" class="btn">View My Work</a>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about">
+        <h2 id="aboutTitle">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p id="aboutParagraph1">
+              I’m a passionate web developer focused on creating smooth,
+              accessible, and modern applications. I enjoy working with Angular
+              and React, and I’m always experimenting with new technologies.
+            </p>
+            <p id="aboutParagraph2">
+              My goal is to combine creativity with clean, efficient code to
+              deliver user-friendly experiences. When I’m not coding, I’m
+              exploring design trends, learning new tools, or contributing to
+              open-source projects.
+            </p>
+          </div>
+          <img src="https://placehold.co/400x400" class="profile" />
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section skills">
+        <h2 id="skillsTitle">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, TypeScript</p>
+          </div>
+          <div class="skill-card">
+            <h3 id="cardTitle1">Frameworks</h3>
+            <p>Angular, React</p>
+          </div>
+          <div class="skill-card">
+            <h3 id="cardTitle2">Tools & Backend</h3>
+            <p id="toolsCard">Firebase, Git, REST APIs</p>
+          </div>
+          <div class="skill-card">
+            <h3 id="cardTitle3">AI Tools</h3>
+            <p>
+              GitHub Copilot, Google Gemini Code Assist, Google Stitch, OpenAI
+              Codex
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section projects">
+        <h2 id="projectsTitle">Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="https://placehold.co/200x200" />
+            <div>
+              <h3>Project One</h3>
+              <p>
+                Short description of the project, what it does, and what tech
+                you used.
+              </p>
+              <a href="https://github.com/yourname/project1" target="_blank"
+                >GitHub</a
+              >
+              <a href="https://yourproject1live.com" target="_blank" id="demo1"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="https://placehold.co/200x200" />
+            <div>
+              <h3>Project Two</h3>
+              <p>
+                Short description of the project, what it does, and what tech
+                you used.
+              </p>
+              <a href="https://github.com/yourname/project2" target="_blank"
+                >GitHub</a
+              >
+              <a href="https://yourproject2live.com" target="_blank" id="demo2"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact">
+        <h2 id="contactTitle">Get In Touch</h2>
+        <p id="contactParagraph">
+          If you’d like to work together or just say hello, feel free to reach
+          out!
+        </p>
+        <a class="btn" id="sayHiBtn">Say Hi 👋</a>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <p id="footerParagraph">
+          © 2025 Patrik Szikora · Built with love using HTML, CSS, and
+          JavaScript.
+        </p>
+      </footer>
+    </main>
+
+    <!-- Socials Modal -->
+    <div id="socialModal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h3 id="contactTitle2">Get in touch with me!</h3>
+        <div class="modal-links">
+          <a href="#" id="emailLink" class="link"
+            >Email
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+              />
+            </svg>
+          </a>
+          <a href="https://github.com/Sz1ky" class="link" target="_blank"
+            >GitHub
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-github"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- LANGUAGE MODAL -->
+    <div id="languageModal" class="lang-modal">
+      <div class="lang-modal-content">
+        <h3>Choose your language / Válasszon nyelvet</h3>
+        <div class="lang-buttons">
+          <button id="englishBtn" class="lang-btn">
+            <div>
+              English
+              <img src="img/uk-flag.png" />
+            </div>
+          </button>
+          <button id="hungarianBtn" class="lang-btn">
+            <div>
+              Magyar
+              <img src="img/hungary-flag.png" />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/email.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/refresh.js"></script>
+    <script src="scripts/scrollReveal.js"></script>
+    <script src="scripts/translator.js"></script>
+  </body>
+</html>

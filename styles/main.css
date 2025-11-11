@@ -1,0 +1,23 @@
+main {
+  margin-left: 220px;
+  padding: 3rem 5vw;
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 100px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+  scroll-margin-top: 40px;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+}
